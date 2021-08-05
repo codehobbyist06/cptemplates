@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+//My typenames
+typedef long long l1;
+typedef vector<int> vi;
+typedef vector<l1> vl;
+#define pair pi;
+#define unordered_map ump;
+
+//My Macros
+#define fi first
+#define se second
+#define pushb push_back
+#define popb pop_back
+#define fli(i,a,b) for(int i=a;i<b;i++)
+#define fld(i,a,b) for(int i=a;i>b;i--)
+#define endl "\n"
+#define pa(arr,l) {fli(i,0,l){cerr<<arr[i]<<" ";}cerr<<endl;}
+#define pm(arr,l,r) fli(i,0,l){fli(j,0,r){cerr<<arr[i][j]<<" ";}cerr<<endl;}
+#define db3(a,b,c) {cerr<<a<<" "<<b<<" "<<c<<endl;}
+#define db2(a,b) {cerr<<a<<" "<<b<<endl;}
+#define db(a) {cerr<<a<<endl;}
+#define max3(a,b,c) max(max(a,b),c);
+#define max4(a,b,c,d) max(max(a,b),max(c,d));
+
+
+void solution(){
+    
+}
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(NULL);
+
+    freopen("in","r",stdin);
+    //freopen("out","w",stdout);
+
+    //Getting test cases
+    int T;
+    cin>>T;
+    fli(t,0,T)
+    {
+        solution();
+    }
+
+    return 0;
+}
